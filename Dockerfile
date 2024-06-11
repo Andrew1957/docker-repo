@@ -1,5 +1,6 @@
 # 使用CentOS作为基础镜像
-FROM centos:latest
+# FROM centos:latest
+FROM alpine
 
 # 安装必要的工具
 RUN yum update -y && \
