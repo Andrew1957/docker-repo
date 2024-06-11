@@ -6,7 +6,7 @@ RUN yum update -y && \
     yum install -y wget unzip && \
     yum clean all
 
-# 下载并安装JDK 8u201
+# 下载并安装JDK 8u_201
 ENV JAVA_HOME=/usr/lib/jvm/java-8-oracle
 ENV PATH=$PATH:$JAVA_HOME/bin
 RUN wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u201-b09/jdk-8u201-linux-x64.rpm" && \
