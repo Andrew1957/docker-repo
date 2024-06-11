@@ -21,4 +21,4 @@ WORKDIR /app
 # EXPOSE <port>
 
 # 定义默认命令（如果需要的话）
-# CMD ["command"]
+# CMD ["java", "-version"]
