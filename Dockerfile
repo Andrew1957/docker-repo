@@ -17,7 +17,7 @@ RUN wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2
 # 设置工作目录
 WORKDIR /app
 
-# 暴露端口（如果需要的话）
+# 暴露端口
 # EXPOSE <port>
 
 # 定义默认命令（如果需要的话）
